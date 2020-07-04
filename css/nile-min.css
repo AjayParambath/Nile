@@ -1,0 +1,197 @@
+/* Nile Website - Styles */
+
+/*
+*{
+    transition: 0.6s;
+} */
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+/* ---------------------Text Sizes */
+.n-text-large{
+    font-size: 25px !important;
+}
+
+.n-text{
+    font-size: 15px !important;
+}
+
+.n-text-small{
+    font-size: 10px !important;
+}
+
+.fa{
+  font-size: 20px !important;
+  margin-right: 10px;
+}
+
+/* ---------------------Positioning */
+
+/* Positioning Text - https://www.w3schools.com/css/css_positioning.asp */
+.n-left{ float: left;}
+
+.n-right{ float: right;}
+
+.n-center{place-content: center;}
+
+/* ---------------------Custom Elements */
+.n-navbar{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    contain: content;
+}
+
+.n-selected-bar{
+    position: fixed;
+    bottom: 0;
+
+    width: 100%;
+    height: 70px;
+}
+
+.n-selected-item{
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    width: 30px;
+    margin: 10px;
+    background-color: khaki;
+    border-radius: 10px;
+
+}
+
+/* ---------------------Button Styles */
+.n-button{
+    text-align: center;
+    padding: 15px 0;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    appearance: none;
+    border: none;
+    background-color: inherit;
+    color: inherit;
+}
+
+/* ---------------------Card Element */
+.n-card{
+    padding: 20px;
+    box-shadow: black;
+}
+
+.n-image{
+    height: inherit;
+    align-self:"center";
+}
+
+/* Overides */
+
+.n-nomargin{
+    margin: 0 !important;
+}
+
+.n-f-width{
+    width: 100%;
+}
+.n-f-height{
+    width: 100%;
+}
+
+.n-margin-right{margin-right: 15px;}
+
+.n-inline{ display: inline-flex; }
+/* Colors */
+
+.n-blue{background-color: #21618C !important;
+color: white;}
+.n-blue-hover:hover{background-color: #3498DB;
+color: black;}
+
+.n-text-blue{color: #21618C;}
+
+.n-rounded{
+    border-radius: 10px;
+}
+
+.n-fixed{
+  position: fixed;
+}
+
+.n-shadow{
+  box-shadow: 1px 1px 10px gray;
+}
+
+.n-content{
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+/* ------------------item Style */
+.n-items{
+  width:80%
+}
+
+.n-category{
+  padding: 12px;
+  text-align: center;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  border-radius: 25px;
+
+}
+
+.n-categories{
+  padding-top: 25px;
+  width:20%;
+
+}
+
+.n-item{
+  height:150px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px gray;
+  background-color: DFFFFE;
+}
+
+.n-item col{
+  padding: 10px;
+  margin: 10px;
+}
+
+.n-item img{
+  height:inherit !important;
+  width:inherit !important;
+  float:left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.n-item name{
+  padding: 20px;
+  margin: 20px;
+  position: relative;
+  left: -15px;
+  font-size: 22px;
+  top: 20px
+}
+
+.n-item info{
+  position: relative;
+  left: -225px;
+  top:50px;
+  color: gray;
+}
+
+.n-item price{
+  position: relative ;
+ top:100px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 17px;
+}
