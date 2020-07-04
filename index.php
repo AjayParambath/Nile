@@ -25,7 +25,7 @@
           <li class="n-category n-padding n-blue-hover">Smartphones</li>
         </ul>
       </div>
-      <div class="n-logoimage">
+      <div class="n-logoimage">  THIS IS THE NEW CODE
          <img src="https://pbs.twimg.com/profile_images/852143274504716289/2moYOBhZ.jpg" alt="" width="300" height="300">
       </div>
     
