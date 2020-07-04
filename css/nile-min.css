@@ -9,6 +9,25 @@ body{
   font-family: 'Raleway', sans-serif;
 }
 
+
+
+
+.n-logoimage{
+	
+  height:150px;
+  margin: 20px;
+  padding: 10px;
+  float: right;
+  position: relative;
+}
+
+
+
+
+
+
+
+
 /* ---------------------Text Sizes */
 .n-text-large{
     font-size: 25px !important;
