@@ -10,8 +10,13 @@
     <div class="n-navbar n-blue ">
         <div class="n-left n-button n-blue-hover n-rounded"><i class="fa fa-shopping-basket n-padding"></i>  Nile-Shopping</div>
         <div class=" n-right">
+            <a href="index.php">
             <button class="n-button n-rounded n-blue-hover"><i class="fa fa-home"></i>Home</button>
-            <button class="n-button n-rounded n-blue-hover"><i class="fa fa-reorder"></i>Categories</button>
+            </a>
+            <a href="shop/index.php">
+             <button class="n-button n-rounded n-blue-hover"><i class="fa fa-reorder"></i>Categories
+             </button>
+            </a>
             <button class="n-button n-rounded n-blue-hover"><i class="fa fa-cart-plus"></i> Cart</button>
             <button class="n-button n-rounded n-blue-hover"><i class="fa fa-user"></i>Login</button>
         </div>
