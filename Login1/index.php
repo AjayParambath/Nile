@@ -8,12 +8,10 @@
     <style >
     button{}
         .button1 {
-              background-color: #4CAF50;
+              background-color: #0759FF;
               color: white;
               padding: 14px 20px;
               margin: 8px 0;
-              border: none;
-              cursor: pointer;
               width: 100%;
             }
          .button1:hover {
@@ -53,16 +51,21 @@
 
 
 <form action="../cart/index.php" method="post">
-  <div class="imgcontainer">
-    <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar" class="avatar">
-  </div>
+ 
 
-  <div class="container">
+  <div class="n-logincontent">
+     <div class="n-image">
+    <img src="https://image.shutterstock.com/image-vector/male-silhouette-avatar-profile-picture-260nw-199246382.jpg" alt="" width=200 height=200 class="n-image">
+  </div>
     <div class="n-f-width">
-    <label for="uname"><b>Username</b></label>
+    <label for="uname">
+        <b>Username</b>
+    </label>
     <input type="text" placeholder="Enter Username" name="uname" required>
     <br>
-    <label for="psw"><b>Password</b></label>
+    <label for="n-psw">
+        <b>Password</b>
+    </label>
     <input type="password" placeholder="Enter Password" name="psw" required>
     <br>
     </div>
@@ -70,15 +73,34 @@
     <label>
       <input type="checkbox" checked="checked" name="remember"> Remember me
     </label>
+    <span >
+        <a href="#">Forgot password?</a>
+    </span>
   </div>
-
-  <div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn button button1">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
-  </div>
+  
+  
 </form>
 
 
+
+
+
+
+
+
+
+
+
+
+
+<!-- Bottom Bar -->
+    <div class="n-selected-bar n-blue n-inline n-center">
+        <div class="n-selected-item "><img class="n-image" src="https://rukminim1.flixcart.com/image/416/416/k2jbyq80pkrrdj/mobile-refurbished/m/5/p/na-128-a-pafb0023in-motorola-4-original-imafhmzvrhbrzs5c.jpeg?q=70" alt=""></div>
+        <div class="n-selected-item "><img class="n-image" src="https://rukminim1.flixcart.com/image/416/416/k2jbyq80pkrrdj/mobile-refurbished/m/5/p/na-128-a-pafb0023in-motorola-4-original-imafhmzvrhbrzs5c.jpeg?q=70" alt=""></div>
+        <a class="n-button n-rounded n-blue-hover n-right">CheckOut Items</a>
+    </div>
+</body>
+</html>
 
 
 
