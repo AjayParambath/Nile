@@ -20,13 +20,22 @@
             <a href="index.php">
                 <button class="n-button n-rounded n-blue-hover"><i class="fa fa-cart-plus"></i> Cart</button>
             </a>
+            <a href="../Login1/index.php">
             <button class="n-button n-rounded n-blue-hover"><i class="fa fa-user"></i>Login</button>
+            </a>
         </div>
     </div>
 <!-- Main Content -->
-  <div class="n-cart">
+  <div class="n-selected-item">
     <p>Selected items</p>
-    <price> Total Amt </price>
+    <div class="n-selected-number">
+      10
+      </div>
+
+
+
+
+    <price> No.of items for checkout </price>
     <br>
     <button class="n-button n-rounded n-blue-hover"><i class="fa fa-user"></i>Proceed to checkout</button>
   </div>
