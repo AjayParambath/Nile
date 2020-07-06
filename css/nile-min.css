@@ -59,20 +59,70 @@ body{
 .n-selected-bar{
     position: fixed;
     bottom: 0;
-
     width: 100%;
     height: 70px;
 }
 
 .n-selected-item{
-    height: 30px;
+    height: 40px;
     padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
     text-align: center;
-    width: 30px;
+    width: fit-content;
     margin: 10px;
-    background-color: khaki;
+    background-color:white;
     border-radius: 10px;
+}
 
+.n-selected-number{
+  position: absolute;
+  bottom: -21px;
+  right: -6px;
+  border: 1px black;
+  color: white;
+  background-color: orange;
+  border-radius: 20px;
+  width: 10px;
+  border-style: solid;
+  padding-left: 4px;
+  padding-right: 4px;
+  user-select: none;
+}
+
+
+.n-selected-close{
+  position: absolute;
+  top: -4px;
+  right: -6px;
+  border: 1px black;
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  width: 10px;
+  border-style: solid;
+  padding-left: 4px;
+  padding-right: 4px;
+  user-select: none;
+}
+.n-selected-close:hover{background-color: black;color: white;}
+
+.n-info{
+  position: fixed;
+  bottom: 100;
+  right: 5%;
+  opacity: 30%;
+  border-radius: 30px;
+  width: fit-content;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: all 0.5s ease-out 0s;
+  opacity: 30%;
+}
+
+.n-info:hover{
+  opacity: 70%!important;
 }
 
 /* ---------------------Button Styles */
@@ -114,6 +164,11 @@ body{
 
 .n-margin-right{margin-right: 15px;}
 
+.n-fixed-right{
+  right: 0;
+  position: fixed;
+}
+
 .n-inline{ display: inline-flex; }
 /* Colors */
 
@@ -142,6 +197,66 @@ color: black;}
   display: flex;
   margin-bottom: 100px;
 }
+
+
+/*-----Login form-----------*/
+
+
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 15%;
+  border-radius: 50%;
+}
+
+.container {
+   margin: auto;
+  width: 50%;
+  padding: 10px;
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
+
 
 /* ------------------item Style */
 .n-items{
@@ -178,34 +293,43 @@ color: black;}
 }
 
 .n-item img{
-  height:inherit !important;
-  width:inherit !important;
+  height:200px !important;
   float:left;
+  width: 300px;
+  object-fit: contain;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.n-cut{
+  text-decoration: line-through;
+  font-weight: 100;
+  color: gray;
+  font-size: small;
 }
 
 .n-item name{
   padding: 20px;
   margin: 20px;
   position: relative;
-  left: -15px;
-  font-size: 22px;
-  top: 20px
+  left: 25px;
+  font-size: 20px;
 }
 
 .n-item info{
   position: relative;
-  left: -225px;
-  top:50px;
+  left: 25px;
   color: gray;
+
 }
 
 .n-item price{
-  position: relative ;
- top:100px;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  font-size: 17px;
+  top: 0;
+  right: 0;
+  position: absolute;
+  margin: 20px;
+  font-weight: bold;
+  font-size: larger;
 }
 /sliding background/
 * {box-sizing:border-box}
